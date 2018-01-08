@@ -2,14 +2,14 @@
 
 a=$PWD
 
-mkdir -p /$a/copy/{backgrounds,icons,themes}
+#mkdir -p /$a/copy/{backgrounds,icons,themes}
 
-unzip -t *.zip;
-unzip *.zip;
+#unzip -t *.zip;
+#unzip *.zip;
 
-cd ThemesRes-LPI-master
+#cd ThemesRes-LPI-master
 
-cp -R /$PWD/backgrounds /$a/copy
+cp -rp /$PWD/backgrounds/* /$PWD/copy/xfce/
 
 cd icons
 unzip Adwaita.zip -d /$a/copy/icons;
